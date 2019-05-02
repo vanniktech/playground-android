@@ -9,13 +9,14 @@ android {
     targetSdkVersion 28
     versionCode 1
     versionName "1.0"
+    vectorDrawables.useSupportLibrary = true
     testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
   }
 }
 
 dependencies {
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-  implementation 'androidx.appcompat:appcompat:1.0.2'
+  implementation 'androidx.appcompat:appcompat:1.1.0-alpha04'
   implementation 'com.google.android.material:material:1.0.0'
   implementation 'androidx.annotation:annotation:1.0.2'
   implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
